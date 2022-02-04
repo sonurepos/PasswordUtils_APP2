@@ -13,6 +13,7 @@ public class App
         PasswordService service= new PasswordService();
        String p= service.encode("sonu1.j");
         System.out.println(p);
+        System.out.println(" Now decryptinh working");
         
        String q= service.decode("c29udTEuag==");
        System.out.println(q);
