@@ -16,6 +16,7 @@ public class App
         System.out.println(" Now decryptinh working");
         
        String q= service.decode("c29udTEuag==");
+       System.out.println("after decode");
        System.out.println(q);
     }
 }
